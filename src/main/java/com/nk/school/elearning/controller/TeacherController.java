@@ -173,7 +173,7 @@ public class TeacherController {
 		}
 	}
 	
-	@GetMapping("/teacher")
+	@GetMapping("/teacher/All")
 	public ResponseEntity<ResponsePack<TeacherDto>> getAllTeacher() {
 		ResponsePack<TeacherDto> responseTeacherDto = null;
 		try {
